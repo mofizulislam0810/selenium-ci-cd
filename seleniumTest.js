@@ -8,6 +8,8 @@ async function googleSearchTest() {
     .setChromeOptions(new chrome.Options())
     .build();
 
+  //check the browser version
+
   try {
     // Open Google homepage
     await driver.get("https://www.google.com");
