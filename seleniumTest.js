@@ -9,7 +9,6 @@ async function googleSearchTest() {
     .build();
 
   //check the browser version
-
   try {
     // Open Google homepage
     await driver.get("https://www.google.com");
